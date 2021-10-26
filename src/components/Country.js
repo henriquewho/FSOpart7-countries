@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Country = ({ country }) => {
-    console.log('country: ', country);
     if (!country) {
       return null
     }

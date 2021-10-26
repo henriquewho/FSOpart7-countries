@@ -5,8 +5,6 @@ import {useField} from './hooks/hooks'
 import {useCountry} from './hooks/hooks'
 import Country from './components/Country'
 
-
-
 const App = () => {
   const nameInput = useField('text')
   const [name, setName] = useState('')
